@@ -59,6 +59,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #373A39;
+  font-style: normal;
 }
 
 .container {
@@ -100,4 +101,43 @@ a {
 
 .menu__list-link:hover {
   border-bottom: 1px solid #fcbb08;
+}
+
+.header__content {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('../images/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.header__content-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: calc(100vh - 93px);
+}
+
+.header__title {
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 88px;
+  color: #fff;
+  margin-top: auto;
+  margin-bottom: 19px;
+  padding-top: 130px;
+}
+
+.header__subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FCBB08;
+  letter-spacing: 3px;
+  margin-bottom: auto;
+}
+
+.header__icon {
+ margin-bottom: 62px;
 }

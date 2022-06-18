@@ -68,6 +68,28 @@ body {
   margin: 0 auto;
 }
 
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  line-height: 75px;
+  font-weight: 700;
+  letter-spacing: -1.6px;
+  color: #242121;
+  padding-bottom: 18px;
+  align-self: flex-start;
+  position: relative;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background-color: #FCBB08;
+  bottom: 0;
+  left: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -140,4 +162,23 @@ a {
 
 .header__icon {
  margin-bottom: 62px;
+}
+
+.about {
+  background-color: #F6F8FA;
+  padding: 150px 0 144px;
+}
+
+.about__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__title {
+  font-size: 48px;
+}
+
+.about__text p {
+  max-width: 770px;
+  margin-bottom: 16px;
 }
